@@ -5,7 +5,7 @@ import sys, getopt
 
 
 headers={
-     'API-KEY':'EF1A0321-A5E7-c254a-9843-58eeff43b3e'
+     'API-KEY':''
 }
 
 def api(argv):
