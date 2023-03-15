@@ -7,6 +7,6 @@ if __name__ =='__main__':   # d中为.json的内容1
         } 
     dstr=json.dumps(d)   # dict转成字符
     dyaml=yaml.load(dstr,Loader=yaml.CLoader)   # 将字符转成yaml
-    filey = 'E:\Safe\脚本\Python脚本\json.yml'
+    filey = json.yml'
     stream = open(filey, 'w')
     yaml.safe_dump(dyaml, stream, default_flow_style=False)  #输出到文件中
