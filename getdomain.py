@@ -7,7 +7,7 @@ def main(domain):
     querystring = {"children_only":"false","include_inactive":"true"}
     headers = {
         "Accept": "application/json",
-        "APIKEY": "i1gOG8L4HSVyijsk7dqHDVsDPuAJcN3m"
+        "APIKEY": ""
     }
     response = requests.request("GET", url, headers=headers, params=querystring).text
     list = json.loads(response)["subdomains"]
