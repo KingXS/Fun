@@ -4,11 +4,11 @@ from email.mime.text import MIMEText
 from email.mime.base import MIMEBase
 from email.mime.multipart import MIMEMultipart
 #sender是邮件发送人邮箱，passWord是服务器授权码，mail_host是服务器地址（这里是QQsmtp服务器）
-sender = 'brianxspe@163.com'#
-passWord = 'VHGOQUSWAWWADOTI'
+sender = ''#
+passWord = ''
 mail_host = 'smtp.163.com'
 #receivers是邮件接收人，用列表保存，可以添加多个
-receivers = ['2532998854@qq.com']
+receivers = ['']
 
 #设置email信息
 msg = MIMEMultipart()
